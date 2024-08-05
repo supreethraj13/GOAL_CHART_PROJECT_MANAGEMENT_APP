@@ -32,9 +32,20 @@ The app can be installed by downloading the APK file provided by enabling develo
 
 ## Demo
 
-Insert git repository or link to demo project created on your preferred IDE.
+Insert git repository or link to the demo project created on your preferred IDE.
 
 
 ## Preview
+- Picture 
 ![Untitled-1](https://github.com/user-attachments/assets/f1fd06d5-7186-47a3-b3ad-e85b1b7c5d66)
 
+-Video 
+
+
+
+
+
+
+
+
+[screenrecording](https://github.com/user-attachments/assets/2dd95b90-419a-4061-9339-31419da1e569)
