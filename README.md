@@ -22,10 +22,12 @@ The app can be installed by downloading the APK file provided by enabling develo
 
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Flutter SDK](https://docs.flutter.dev/get-started/install)
+ - [Dart SDK](https://dart.dev/get-dart)
+ - [Android studio setup](https://developer.android.com/studio)
+ - [VSCode setup](https://code.visualstudio.com/)
  - [APK Link](https://drive.google.com/file/d/1XdxP29XsZE1U0M7fKprZmMEZNeEzOFLa/view?usp=sharing)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
 ## Demo
