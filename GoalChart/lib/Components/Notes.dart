@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/Components/Add_notes_page.dart';
+import 'package:GoalChart/Components/Add_notes_page.dart';
 import '../Datatypes/Notes_data_model.dart';
 
 class Notes extends StatefulWidget {

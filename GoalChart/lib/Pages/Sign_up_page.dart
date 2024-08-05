@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/Pages/Sign_in_page.dart';
+import 'package:GoalChart/Pages/Sign_in_page.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});

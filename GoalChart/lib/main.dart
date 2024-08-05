@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_app/Pages/Splash.dart';
+import 'package:GoalChart/Pages/Splash.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.montserratTextTheme(),
       ),
-      title: 'GoalChart',
+      title: 'Goal Chart',
       home: const SplashPage(),
     );
   }

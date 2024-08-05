@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:my_app/Components/Chart_View.dart';
-import 'package:my_app/Components/Notes.dart';
-import 'package:my_app/Components/Project_list.dart';
-import 'package:my_app/Datatypes/Project_data_model.dart';
+import 'package:GoalChart/Components/Chart_View.dart';
+import 'package:GoalChart/Components/Notes.dart';
+import 'package:GoalChart/Components/Project_list.dart';
+import 'package:GoalChart/Datatypes/Project_data_model.dart';
 
 class Home_Page extends StatefulWidget {
   const Home_Page({super.key});
@@ -41,7 +41,7 @@ class _Home_PageState extends State<Home_Page> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Project Manager',
+          title: const Text('Goal Chart',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               )),

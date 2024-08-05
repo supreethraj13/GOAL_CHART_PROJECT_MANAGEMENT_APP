@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/Datatypes/Project_data_model.dart';
+import 'package:GoalChart/Datatypes/Project_data_model.dart';
 import 'package:pie_chart/pie_chart.dart';
 
 class ChartView extends StatefulWidget {
