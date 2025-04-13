@@ -1,0 +1,2 @@
+/home/supreeth/projects/GOAL_CHART_PROJECT_MANAGEMENT_APP/GoalChart/android/app/.cxx/Debug/m6w5p6p3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/supreeth/projects/GOAL_CHART_PROJECT_MANAGEMENT_APP/GoalChart/android/app/.cxx/Debug/m6w5p6p3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

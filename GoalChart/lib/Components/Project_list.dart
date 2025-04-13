@@ -1,10 +1,10 @@
-// ignore_for_file: prefer_const_constructors
+
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '/Components/Add_project_page.dart';
 import '/Components/Project_Details.dart';
-import '/Pages/Home_Page.dart';
+import '../screen/Home_Page.dart';
 import '../Datatypes/Project_data_model.dart';
 
 class ProjectList extends StatefulWidget {
@@ -21,11 +21,11 @@ class _ProjectListState extends State<ProjectList> {
     showModalBottomSheet(
         context: context,
         builder: (_) {
-          return AddProjectPage(_AddNewProject);
+          return AddProjectPage(AddNewProject);
         });
   }
 
-  void _AddNewProject(
+  void AddNewProject(
       String Title, String Description, Color color, DateTime deadline) {
     final newNote = Projects(
         title: Title,
@@ -50,8 +50,10 @@ class _ProjectListState extends State<ProjectList> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Colors.white,
       elevation: 6,
       margin: EdgeInsets.all(5),
+      shadowColor: Colors.grey[300]!,
       child: Column(
         children: [
           ListTile(
@@ -88,7 +90,7 @@ class _ProjectListState extends State<ProjectList> {
                                   ProjectDetails(tx, DeleteProject)));
                         },
                         child: Card(
-                          color: tx.color,
+                          color: tx.isDone==false?Colors.red[500]!:Colors.blue[500]!,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -117,7 +119,8 @@ class _ProjectListState extends State<ProjectList> {
                                           .format(tx.deadline),
                                       style: TextStyle(fontSize: 18),
                                     )
-                                  : Text('')
+                                    
+                                  : Text(''),
                             ],
                           ),
                         )),

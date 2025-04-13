@@ -54,8 +54,10 @@ class _NotesState extends State<Notes> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Colors.white,
       elevation: 6,
       margin: EdgeInsets.all(5),
+      shadowColor: Colors.grey[300]!,
       child: Column(
         children: [
           ListTile(
