@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090692087097",
+    "project_id": "goal-d9310",
+    "storage_bucket": "goal-d9310.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090692087097:android:c302ae62dc28c3444cbce8",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArN43Hao7UZ13gibbPmc6VbryUJ-6qHng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

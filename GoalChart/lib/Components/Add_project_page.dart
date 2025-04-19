@@ -1,10 +1,12 @@
+import 'package:GoalChart/Components/Project_list.dart';
+import 'package:GoalChart/Datatypes/Project_data_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart';
 import 'package:intl/intl.dart';
-
+import 'Project_list.dart';
 class AddProjectPage extends StatefulWidget {
   final Function Addtx;
-
+  
   AddProjectPage(this.Addtx);
 
   @override
@@ -39,7 +41,7 @@ class _AddProjectPageState extends State<AddProjectPage> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
-                      color: Colors.redAccent,
+                      color: Colors.deepPurple[400],
                     ),
                     child: Row(
                       children: [
@@ -50,8 +52,8 @@ class _AddProjectPageState extends State<AddProjectPage> {
                                 value1 = e!;
                               });
                             }),
-                        const Icon(Icons.person),
-                        const Text('Personal  ')
+                        const Icon(Icons.person,color: Colors.white,),
+                        const Text(' Personal ',style: TextStyle(color: Colors.white),)
                       ],
                     ),
                   ),
@@ -59,7 +61,7 @@ class _AddProjectPageState extends State<AddProjectPage> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
-                      color: Colors.amber,
+                      color: Colors.deepPurple[400],
                     ),
                     child: Row(
                       children: [
@@ -70,8 +72,8 @@ class _AddProjectPageState extends State<AddProjectPage> {
                                 value2 = e!;
                               });
                             }),
-                        const Icon(Icons.work),
-                        const Text('Work  ')
+                        const Icon(Icons.work,color: Colors.white),
+                        const Text(' Work  ',style: TextStyle(color: Colors.white),)
                       ],
                     ),
                   ),
@@ -79,7 +81,7 @@ class _AddProjectPageState extends State<AddProjectPage> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
-                      color: Colors.blueAccent,
+                      color: Colors.deepPurple[400],
                     ),
                     child: Row(
                       children: [
@@ -90,8 +92,8 @@ class _AddProjectPageState extends State<AddProjectPage> {
                                 value3 = e!;
                               });
                             }),
-                        const Icon(Icons.group),
-                        const Text('Group  ')
+                        const Icon(Icons.group,color: Colors.white),
+                        const Text(' Group ',style: TextStyle(color: Colors.white))
                       ],
                     ),
                   ),
@@ -148,7 +150,8 @@ class _AddProjectPageState extends State<AddProjectPage> {
                         ? Colors.redAccent
                         : value2 == true
                             ? Colors.yellowAccent
-                            : Colors.blueAccent);
+                            : Colors.blueAccent,
+                    );
                     widget.Addtx(titlecontroller.text,
                         Descriptioncontroller.text, color, deadline);
                   },

@@ -4,7 +4,7 @@ class Projects {
   final String title;
   final String description;
   final String id;
-  final Color color;
+  Color color;
   bool isDone;
   final DateTime deadline;
 

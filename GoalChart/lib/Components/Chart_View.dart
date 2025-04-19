@@ -12,7 +12,7 @@ class ChartView extends StatefulWidget {
 }
 
 class _ChartViewState extends State<ChartView> {
-  get colorList => [Colors.red, Colors.orange, Colors.purpleAccent];
+  List<Color> colorList = [Colors.red[500]!, Colors.blue[500]!];
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +26,10 @@ class _ChartViewState extends State<ChartView> {
     };
 
     return Card(
+      color: Colors.white,
       elevation: 6,
       margin: EdgeInsets.all(5),
+      shadowColor: Colors.grey[300]!,
       child: Column(
         children: [
       ListTile(
@@ -42,11 +44,11 @@ class _ChartViewState extends State<ChartView> {
               dataMap: dataMap,
               animationDuration: Duration(milliseconds: 1000),
               chartLegendSpacing: 32,
-              chartRadius: MediaQuery.of(context).size.width / 3.2,
-              colorList: colorList,
+              chartRadius: MediaQuery.of(context).size.width / 3,
+              colorList: colorList ,
               initialAngleInDegree: 0,
               chartType: ChartType.ring,
-              ringStrokeWidth: 32,
+              ringStrokeWidth: 20,
               legendOptions: LegendOptions(
                 showLegendsInRow: false,
                 legendPosition: LegendPosition.right,
@@ -56,11 +58,11 @@ class _ChartViewState extends State<ChartView> {
                 ),
               ),
               chartValuesOptions: ChartValuesOptions(
-                showChartValueBackground: true,
+                showChartValueBackground: false,
                 showChartValues: true,
                 showChartValuesInPercentage: false,
-                showChartValuesOutside: false,
-                decimalPlaces: 1,
+                showChartValuesOutside: true,
+                decimalPlaces: 0,
               ),
             ),
           ),
