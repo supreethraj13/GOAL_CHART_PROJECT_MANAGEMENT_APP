@@ -12,7 +12,7 @@ class ChartView extends StatefulWidget {
 }
 
 class _ChartViewState extends State<ChartView> {
-  List<Color> colorList = [Colors.red[500]!, Colors.blue[500]!];
+  List<Color> colorList = [ Colors.blue[500]!,Colors.red[500]!,];
 
   @override
   Widget build(BuildContext context) {

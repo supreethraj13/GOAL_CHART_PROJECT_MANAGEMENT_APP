@@ -76,6 +76,7 @@ class _SignUpPageState extends State<SignUpPage> {
                         borderRadius: BorderRadius.circular(18),
                         borderSide: BorderSide.none),
                     prefixIcon: Icon(Icons.password)),
+                obscureText: true,
               ),
              /* TextField(
                 controller: _confirm_passwordController,

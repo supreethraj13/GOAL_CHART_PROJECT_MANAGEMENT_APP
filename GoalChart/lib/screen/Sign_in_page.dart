@@ -76,6 +76,7 @@ class _SignInPageState extends State<SignInPage> {
                         borderRadius: BorderRadius.circular(18),
                         borderSide: BorderSide.none),
                     prefixIcon: Icon(Icons.password)),
+                obscureText: true,
               ),
               ElevatedButton(
                   onPressed: () {
@@ -86,6 +87,9 @@ class _SignInPageState extends State<SignInPage> {
                     'Login',
                     style: TextStyle(fontSize: 16),
                   )),
+              //if(Provider.of<AuthPresenter>(context,listen: false).loading==true)
+                // SizedBox(height: 5,),
+                // CircularProgressIndicator(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

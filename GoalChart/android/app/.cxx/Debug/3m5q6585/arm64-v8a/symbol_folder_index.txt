@@ -1,0 +1,1 @@
+/home/supreeth/StudioProjects/GOAL_CHART_PROJECT_MANAGEMENT_APP1/GoalChart/build/app/intermediates/cxx/Debug/3m5q6585/obj/arm64-v8a

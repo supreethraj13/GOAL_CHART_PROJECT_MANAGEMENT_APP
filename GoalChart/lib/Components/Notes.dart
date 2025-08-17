@@ -25,7 +25,8 @@ class _NotesState extends State<Notes> {
       id: '3',
       title: 'Note 3',
       content: 'Content of Note 3',
-    ),*/   //was used as place holders during development
+    ),  //was used as place holders during development
+    */
   ];
 
   void _ShowNewNotesTab(BuildContext context) {

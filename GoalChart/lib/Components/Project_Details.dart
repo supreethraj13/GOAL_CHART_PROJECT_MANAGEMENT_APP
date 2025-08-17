@@ -62,7 +62,7 @@ class _ProjectDetailsState extends State<ProjectDetails> {
                     style: ButtonStyle(
                         backgroundColor: WidgetStatePropertyAll(
                             widget.tx.isDone == false
-                                ? Colors.greenAccent
+                                ? Colors.redAccent
                                 : Colors.blueAccent)),
                     child: Text(
                       widget.tx.isDone == false ? 'In Progress' : 'Completed',
